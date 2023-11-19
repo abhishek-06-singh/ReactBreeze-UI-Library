@@ -1,0 +1,84 @@
+[
+  {
+    "code": "+1",
+    "name": "USA",
+    "flag": "US"
+  },
+  {
+    "code": "+44",
+    "name": "UK",
+    "flag": "GB"
+  },
+  {
+    "code": "+33",
+    "name": "France",
+    "flag": "FR"
+  },
+  {
+    "code": "+49",
+    "name": "Germany",
+    "flag": "DE"
+  },
+  {
+    "code": "+81",
+    "name": "Japan",
+    "flag": "JP"
+  },
+  {
+    "code": "+86",
+    "name": "China",
+    "flag": "CN"
+  },
+  {
+    "code": "+91",
+    "name": "India",
+    "flag": "IN"
+  },
+  {
+    "code": "+55",
+    "name": "Brazil",
+    "flag": "BR"
+  },
+  {
+    "code": "+7",
+    "name": "Russia",
+    "flag": "RU"
+  },
+  {
+    "code": "+234",
+    "name": "Nigeria",
+    "flag": "NG"
+  },
+
+  {
+    "code": "+92",
+    "name": "Pakistan",
+    "flag": "PK"
+  },
+  {
+    "code": "+62",
+    "name": "Indonesia",
+    "flag": "ID"
+  },
+  {
+    "code": "+27",
+    "name": "South Africa",
+    "flag": "ZA"
+  },
+  {
+    "code": "+61",
+    "name": "Australia",
+    "flag": "AU"
+  },
+
+  {
+    "code": "+89",
+    "name": "South Korea",
+    "flag": "KR"
+  },
+  {
+    "code": "+52",
+    "name": "Mexico",
+    "flag": "MX"
+  }
+]
