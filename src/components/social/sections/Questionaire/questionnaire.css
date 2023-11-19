@@ -1,0 +1,48 @@
+.authForm {
+  width: 28rem;
+  min-height: 30rem;
+
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 3.2rem;
+
+  background-color: white;
+
+  border-radius: 1rem;
+  svg {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .authForm {
+    width: 100%;
+    max-width: none;
+    padding: 2rem 2.2rem;
+    border-radius: 0;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .authForm {
+    width: 100%;
+    max-width: none;
+    padding: 1.5rem 1.8rem;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 365px) {
+  .authForm {
+    width: 100%;
+    max-width: none;
+    padding: 1rem 1.2rem;
+    border-radius: 0;
+    height: 100vh;
+  }
+}
