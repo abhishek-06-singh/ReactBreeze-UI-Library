@@ -20,10 +20,4 @@ ReactBreeze UI Library offers a curated collection of meticulously crafted React
 
 - **Intuitive Integration:** Seamlessly integrate components into your React projects using one-click code snippets.
 
-## Getting Started
 
-1. Install ReactBreeze:
-
-   ```bash
-   npm install reactbreeze-ui
-   ```
