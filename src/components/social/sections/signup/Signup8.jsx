@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import countryCodes from "./countryCodes.json";
 import Flag from "react-country-flag";
 import googleIcon from "../../assets/google.png";
-
+import logo from "../../assets/appLogowhite.png";
 const minLength = 6;
 
 const Signup8 = () => {
@@ -104,11 +104,7 @@ const Signup8 = () => {
       <div className="w-full lg:w-1/2 p-8 flex items-center justify-center mt-20">
         <div className="max-w-md w-full">
           <div className="mb-6 text-end">
-            <img
-              src="https://oyelabs.com/wp-content/uploads/2023/01/Group-80-1.svg"
-              alt="Logo"
-              className="mx-auto h-12 justify-end"
-            />
+            <img src={logo} alt="Logo" className="mx-auto h-16 justify-end" />
           </div>
 
           <h2 className="text-2xl font-semibold text-gray-100 text-center mb-6">

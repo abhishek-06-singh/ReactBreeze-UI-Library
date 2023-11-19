@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./questionnaire.css";
-
+import logo from "../../assets/appLogo.png";
 import QuestionBoilerblate from "./question._boilerplate";
 
 import { useNavigate } from "react-router-dom";
@@ -190,11 +190,7 @@ const QuestionnaireBoilerplate = ({ customerInfo, ...props }) => {
   return (
     <div className="flex items-center justify-center h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-slate-900 to-indigo-900 ">
       <div className="authForm">
-        <img
-          src="https://oyelabs.com/wp-content/uploads/2023/01/Group-80-1.svg"
-          alt=""
-          className="m-4 w-52"
-        />
+        <img src={logo} alt="" className="m-4 w-52" />
 
         <div className="w-full  flex flex-col justify-between   min-h-[21rem]">
           <div>

@@ -14,7 +14,9 @@ import Gallery from "./subContainer/image-Gallery/Gallery";
 import UserIndicator from "./subContainer/user/UserIndicator";
 import Forms from "./subContainer/forms/Forms";
 import Toasts from "./subContainer/toasts/Toasts";
-
+import FlyBtns from "./subContainer/fly-buttons/Flybtns";
+import Questions from "./subContainer/questions/Questions";
+import Card from "./subContainer/card/Card";
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
 
@@ -50,7 +52,16 @@ function App() {
         />
         <Route path="/components/social/sections/forms" element={<Forms />} />
         <Route path="/components/social/sections/toast" element={<Toasts />} />
+        <Route
+          path="/components/social/sections/fly-button"
+          element={<FlyBtns />}
+        />
+        <Route
+          path="/components/social/sections/Questionaire"
+          element={<Questions />}
+        />
 
+        <Route path="/components/social/sections/cards" element={<Card />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
         <Route path="*" element={<h1>Page not found</h1>} />
