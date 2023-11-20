@@ -1,3 +1,7 @@
+
+![appLogowhite](https://github.com/abhishek-06-singh/ReactBreeze-UI-Library/assets/115978151/1474da51-3da7-46a5-b92a-0220ef982d5c)
+
+
 # ReactBreeze UI Library 🌐
 
 Welcome to ReactBreeze, where the worlds of React and Tailwind CSS unite, creating a seamless synergy for your UI development needs.
@@ -16,10 +20,4 @@ ReactBreeze UI Library offers a curated collection of meticulously crafted React
 
 - **Intuitive Integration:** Seamlessly integrate components into your React projects using one-click code snippets.
 
-## Getting Started
 
-1. Install ReactBreeze:
-
-   ```bash
-   npm install reactbreeze-ui
-   ```
