@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <HeroSubComp />
-      <div className="px-40">
+      <div className="">
         <Section />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../../src/componentsLogo.png";
 const Section = () => {
   return (
-    <div class="relative mx-auto w-full max-w-container space-y-20 px-4 pt-20 sm:px-6 lg:px-8 pb-20 bg-white">
+    <div class="relative mx-auto w-full max-w-container space-y-20 px-4  pt-20 sm:px-6 lg:px-8 pb-20 bg-white shadow-lg shadow-slate-300">
       <section id="product-marketing" class="scroll-mt-28">
         <h2 class="text-xl font-bold text-slate-900">Social Breeze! 🚀</h2>
         <p class="mt-3 text-sm leading-7 text-slate-500">

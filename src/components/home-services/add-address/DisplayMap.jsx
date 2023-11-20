@@ -11,18 +11,15 @@ const DisplayMap = ({
   const mapLocationRef = useRef();
   const [map, setMap] = useState(null);
 
-  const [mapLocation, setMapLocation] = useState({
-    lat: 23.2599333,
-    lng: 77.412615,
-  });
+  const [mapLocation, setMapLocation] = useState(currentLocation);
   console.log("mapLocation", mapLocation);
   useEffect(() => {
     setMapLocation(currentLocation);
 
     if (map) {
       const newPosition = {
-        lat: 37.7749,
-        lng: -122.4194,
+        lat: currentLocation ? currentLocation.lat : 37.7749,
+        lng: currentLocation ? currentLocation.lng : -122.4194,
       };
 
       map.panTo(newPosition);
