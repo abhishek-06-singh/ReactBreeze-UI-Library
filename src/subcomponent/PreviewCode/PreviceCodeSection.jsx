@@ -95,6 +95,12 @@ const PreviewCodeSection = ({
       heading = "Cards";
       break;
     default:
+    case "add-address":
+      heading = "Address Components";
+      break;
+    case "carts":
+      heading = "Carts";
+      break;
       heading = "Sections";
   }
 

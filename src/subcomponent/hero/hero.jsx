@@ -2,14 +2,14 @@ import React from "react";
 
 const HeroSubComp = () => {
   return (
-    <div class="relative -mt-[5.75rem] overflow-hidden bg-zinc-900 pt-12 md:pt-[5.75rem]">
+    <div class="relative -mt-[5.75rem] overflow-hidden bg-slate-50 pt-12 md:pt-[5.75rem]">
       <div class="absolute inset-y-0 hidden w-full min-w-[1360px] "></div>
       <div class="mx-auto max-w-container px-4 pt-4 sm:px-6 lg:flex lg:px-8">
         <div class="relative z-20 mx-auto max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
-          <h1 class="text-base font-semibold leading-7 text-indigo-500">
+          <h1 class="text-base font-semibold leading-7 text-purple-600">
             By Abhishek Singh Chauhan
           </h1>
-          <p class="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-slate-200 sm:text-5xl sm:leading-[3.5rem]">
+          <p class="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">
             Beautiful UI components, crafted with Tailwind CSS and React.
           </p>
           <div class="flex flex-wrap mt-4">
@@ -17,7 +17,7 @@ const HeroSubComp = () => {
               <svg
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-indigo-400"
+                class="h-8 w-8 flex-none stroke-current text-slate-400"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -25,13 +25,13 @@ const HeroSubComp = () => {
                 <path d="M5 4.15h22.5l-2 20.5-9.25 4-9.25-4-2-20.5Z"></path>
                 <path d="M20.5 9.15H12v5.5h8.5v6l-4.25 2-4.25-2v-2.5"></path>
               </svg>
-              <span class="ml-2.5 text-indigo-400">HTML</span>
+              <span class="ml-2.5">HTML</span>
             </div>
             <div class="flex items-center text-sm font-medium text-slate-500 ml-6">
               <svg
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-indigo-400"
+                class="h-8 w-8 flex-none stroke-current text-slate-400"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -51,13 +51,13 @@ const HeroSubComp = () => {
                 ></ellipse>
                 <circle cx="16" cy="16" r="2"></circle>
               </svg>
-              <span class="ml-2.5 text-indigo-400">React</span>
+              <span class="ml-2.5">React</span>
             </div>
             <div class="flex items-center text-sm font-medium text-slate-500 ml-6">
               <svg
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-indigo-400"
+                class="h-8 w-8 flex-none stroke-current text-slate-400"
                 stroke-width="1.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -65,28 +65,28 @@ const HeroSubComp = () => {
                 <path d="M19.924 5 16 11.644 12.075 5H3l13 23L29 5h-9.076Z"></path>
                 <path d="M19.879 5 16 11.26 12.121 5H8l8 13 8-13h-4.121Z"></path>
               </svg>
-              <span class="ml-2.5 text-indigo-400">Vue</span>
+              <span class="ml-2.5">Vue</span>
             </div>
           </div>
-          <p class="mt-4 text-base leading-7 text-indigo-500">
+          <p class="mt-4 text-base leading-7 text-purple-700">
             Over 500+ professionally designed, fully responsive, expertly
             crafted component examples you can drop into your Tailwind projects
             and customize to your heart’s content.
           </p>
           <div class="mt-8 flex gap-4">
             <a
-              class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-indigo-500 text-white hover:bg-indigo-700"
+              class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700"
               href=""
             >
               <span>
                 Live preview
-                <span aria-hidden="true" class="text-slate-100 sm:inline">
+                <span aria-hidden="true" class="text-slate-400 sm:inline">
                   →
                 </span>
               </span>
             </a>
             <a
-              class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-100 ring-1 "
+              class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 "
               href="/documentation"
             >
               <span>
@@ -102,7 +102,7 @@ const HeroSubComp = () => {
           <div class="z-20 flex flex-col">
             <div class="relative p-4">
               <div class="absolute bottom-0 left-11 right-0 top-8 bg-slate-900/[0.03]"></div>
-              <div class="pointer-events-auto relative z-10 w-[24.125rem] rounded-lg bg-slate-700 text-[0.8125rem] leading-5 text-slate-100 shadow-xl shadow-slate-600 ring-1 ring-slate-100/10">
+              <div class="pointer-events-auto relative z-10 w-[24.125rem] rounded-lg bg-white text-[0.8125rem] leading-5 text-slate-700 shadow-xl shadow-black/5 ring-1 ring-slate-700/10">
                 <div>
                   <div class="flex items-center px-3.5 py-2.5 text-slate-400">
                     <svg
@@ -194,7 +194,7 @@ const HeroSubComp = () => {
                       </svg>
                       Add hashtag...
                     </div>
-                    <div class="flex items-center rounded-md p-1.5 bg-indigo-600 text-white">
+                    <div class="flex items-center rounded-md p-1.5 bg-purple-600 text-white">
                       <svg
                         class="mr-2.5 h-5 w-5 flex-none stroke-white"
                         fill="none"
@@ -211,11 +211,11 @@ const HeroSubComp = () => {
                 </div>
               </div>
               <div class="z-0">
-                <div class="absolute -right-[95%] left-0 top-8 h-px bg-slate-100 [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                <div class="absolute -bottom-16 -top-2 right-0 w-px bg-indigo-300 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                <div class="absolute -right-[95%] left-0 top-8 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                <div class="absolute -bottom-16 -top-2 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                 <div class="absolute -right-2/3 top-px -mb-px flex h-8 items-end overflow-hidden">
-                  <div class="flex -mb-px h-[2px] w-80 -scale-x-100 ">
-                    <div class="w-full flex-none blur-sm [background-image: linear-gradient(90deg, rgba(56, 189, 248, 0) 0%, #0EA5E9 32.29%, rgba(236, 72, 153, 0.3) 67.19%, rgba(236, 72, 153, 0) 100%, #FFFFFF)]"></div>
+                  <div class="flex -mb-px h-[2px] w-80 -scale-x-100">
+                    <div class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
                     <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
                   </div>
                 </div>
@@ -223,8 +223,8 @@ const HeroSubComp = () => {
             </div>
             <div class="relative ml-6 flex items-center justify-end">
               <div class="relative p-4">
-                <div class="pointer-events-auto h-6 w-10 rounded-full p-1 ring-1 ring-inset transition duration-200 ease-in-out bg-slate-400 ">
-                  <div class="h-4 w-4 rounded-full bg-indigo-500 shadow-sm ring-1 ring-slate-700/10 transition duration-200 ease-in-out"></div>
+                <div class="pointer-events-auto h-6 w-10 rounded-full p-1 ring-1 ring-inset transition duration-200 ease-in-out bg-slate-900/10 ring-slate-900/5">
+                  <div class="h-4 w-4 rounded-full bg-white shadow-sm ring-1 ring-slate-700/10 transition duration-200 ease-in-out"></div>
                 </div>
                 <div class="z-0">
                   <div class="absolute -top-full bottom-2/3 left-0 w-px bg-slate-900/[0.2] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -248,19 +248,19 @@ const HeroSubComp = () => {
                 </div>
               </div>
               <div class="relative p-4">
-                <div class="pointer-events-auto rounded-md bg-indigo-500 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                <div class="pointer-events-auto rounded-md bg-purple-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
                   Button A
                 </div>
               </div>
               <div class="z-0">
-                <div class="absolute -left-12 -right-4 top-0 h-px bg-slate-200 [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                <div class="absolute -right-4 bottom-0 left-0 h-px bg-indigo-200 [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                <div class="absolute -left-12 -right-4 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                <div class="absolute -right-4 bottom-0 left-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
               </div>
             </div>
           </div>
           <div class="relative z-10 mt-8">
             <div class="relative p-4">
-              <div class="w-[19.875rem] rounded-lg bg-slate-700 text-[0.8125rem] leading-5 text-slate-100 shadow-xl shadow-slate-600  ">
+              <div class="w-[19.875rem] rounded-lg bg-white text-[0.8125rem] leading-5 text-slate-900 shadow-xl shadow-black/5 ring-1 ring-slate-700/10">
                 <div class="flex items-center p-4 pb-0">
                   <img
                     src="https://media.licdn.com/dms/image/D4D03AQGtGeoI2HlOsg/profile-displayphoto-shrink_400_400/0/1672082959946?e=1706140800&v=beta&t=9YfXoZPqtvePYl2XmllpAeA-pyYddSfklNue_YWie-8"
@@ -269,27 +269,27 @@ const HeroSubComp = () => {
                   />
                   <div class="ml-4 flex-auto">
                     <div class="font-medium">Abhishek</div>
-                    <div class="mt-1 text-slate-200">
+                    <div class="mt-1 text-slate-500">
                       Sent you an invite to connect.
                     </div>
                   </div>
                 </div>
                 <div class="flex gap-3 p-4">
-                  <div class="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                  <div class="pointer-events-auto rounded-md bg-purple-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
                     Accept
                   </div>
-                  <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-500">
+                  <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
                     Decline
                   </div>
                 </div>
               </div>
               <div class="z-0">
-                <div class="absolute -left-12 -right-4 bottom-0 h-px bg-indigo-600 [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                <div class="absolute -left-12 -right-4 bottom-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                 <div class="absolute -bottom-16 -top-2 left-[21.875rem] w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
               </div>
             </div>
             <div class="relative p-4">
-              <div class="w-[24.5rem] divide-y divide-slate-400/20 rounded-lg bg-slate-700 text-[0.8125rem] leading-5 text-slate-100 shadow-xl shadow-slate-600 ">
+              <div class="w-[24.5rem] divide-y divide-slate-400/20 rounded-lg bg-white text-[0.8125rem] leading-5 text-slate-900 shadow-xl shadow-black/5 ring-1 ring-slate-700/10">
                 <div class="flex items-center p-4">
                   <img
                     src="https://yt3.googleusercontent.com/XtP3zfVVv5IilGdFpFsgPLMef9e4EERd0O3GZz8S-QcWKQOPyoSm_3ccvQ4xvVSjtnnfwC5ENA=s900-c-k-c0x00ffffff-no-rj"
@@ -298,9 +298,9 @@ const HeroSubComp = () => {
                   />
                   <div class="ml-4 flex-auto">
                     <div class="font-medium">Hasbulla</div>
-                    <div class="mt-1 text-slate-100">@hasbullaufc</div>
+                    <div class="mt-1 text-slate-700">@hasbullaufc</div>
                   </div>
-                  <div class="pointer-events-auto ml-4 flex-none rounded-md px-2 py-[0.3125rem] font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 bg-slate-200">
+                  <div class="pointer-events-auto ml-4 flex-none rounded-md px-2 py-[0.3125rem] font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
                     View
                   </div>
                 </div>
@@ -312,14 +312,14 @@ const HeroSubComp = () => {
                   />
                   <div class="ml-4 flex-auto">
                     <div class="font-medium">Dana White</div>
-                    <div class="mt-1 text-slate-100">@dana</div>
+                    <div class="mt-1 text-slate-700">@dana</div>
                   </div>
-                  <div class="pointer-events-auto ml-4 flex-none rounded-md px-2 py-[0.3125rem] font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 bg-slate-200">
+                  <div class="pointer-events-auto ml-4 flex-none rounded-md px-2 py-[0.3125rem] font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
                     View
                   </div>
                 </div>
                 <div class="p-4">
-                  <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 bg-indigo-500 text-slate-100  hover:bg-indigo-700">
+                  <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
                     View all
                   </div>
                 </div>
@@ -334,7 +334,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-100"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -356,10 +356,10 @@ const HeroSubComp = () => {
                 </svg>
               </div>
               <div class="ml-6">
-                <h2 class="text-sm font-semibold leading-6 text-slate-100">
+                <h2 class="text-sm font-semibold leading-6 text-slate-900">
                   500+ Components
                 </h2>
-                <p class="mt-2 text-sm leading-6 text-slate-200">
+                <p class="mt-2 text-sm leading-6 text-slate-700">
                   Beautifully designed, expertly crafted components that follow
                   all accessibility best practices and are easy to customize.
                 </p>
@@ -368,7 +368,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-gray-100"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -390,10 +390,10 @@ const HeroSubComp = () => {
                 </svg>
               </div>
               <div class="ml-6">
-                <h2 class="text-sm font-semibold leading-6 text-slate-100">
+                <h2 class="text-sm font-semibold leading-6 text-slate-900">
                   React, Vue, and HTML
                 </h2>
-                <p class="mt-2 text-sm leading-6 text-slate-200">
+                <p class="mt-2 text-sm leading-6 text-slate-700">
                   Interactive examples for React and Vue powered by Headless UI,
                   plus vanilla HTML if you’d rather write any necessary JS
                   yourself.
@@ -403,7 +403,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-100"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -412,7 +412,7 @@ const HeroSubComp = () => {
                 >
                   <path
                     d="M.75 8A7.25 7.25 0 018 .75h24A7.25 7.25 0 0139.25 8v24A7.25 7.25 0 0132 39.25H8A7.25 7.25 0 01.75 32V8z"
-                    class="fill-indigo-50 stroke-indigo-500"
+                    class="fill-indigo-50 stroke-purple-500"
                   ></path>
                   <path
                     d="M7.75 21.25v-1.5a4 4 0 014-4h7.5m5 5v7.5a4 4 0 01-4 4h-1.5M27.75 32.25h.5a4 4 0 004-4v-10.5m-10-10h-10.5a4 4 0 00-4 4v.5"
@@ -426,10 +426,10 @@ const HeroSubComp = () => {
                 </svg>
               </div>
               <div class="ml-6">
-                <h2 class="text-sm font-semibold leading-6 text-slate-100">
+                <h2 class="text-sm font-semibold leading-6 text-slate-900">
                   Fully Responsive
                 </h2>
-                <p class="mt-2 text-sm leading-6 text-slate-200">
+                <p class="mt-2 text-sm leading-6 text-slate-700">
                   Every example is fully responsive and carefully designed and
                   implemented to look great at any screen size.
                 </p>

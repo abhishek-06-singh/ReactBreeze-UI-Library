@@ -17,6 +17,9 @@ import Toasts from "./subContainer/toasts/Toasts";
 import FlyBtns from "./subContainer/fly-buttons/Flybtns";
 import Questions from "./subContainer/questions/Questions";
 import Card from "./subContainer/card/Card";
+import Address from "./subContainer/address/Address";
+import Carts from "./subContainer/carts/Carts";
+
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
 
@@ -62,6 +65,11 @@ function App() {
         />
 
         <Route path="/components/social/sections/cards" element={<Card />} />
+        <Route
+          path="/components/home-services/add-address"
+          element={<Address />}
+        />
+        <Route path="/components/home-services/carts" element={<Carts />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
         <Route path="*" element={<h1>Page not found</h1>} />
