@@ -19,6 +19,7 @@ import Questions from "./subContainer/questions/Questions";
 import Card from "./subContainer/card/Card";
 import Address from "./subContainer/address/Address";
 import Carts from "./subContainer/carts/Carts";
+import Userprofiles from "./subContainer/userprofiles/Userprofiles";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -70,6 +71,10 @@ function App() {
           element={<Address />}
         />
         <Route path="/components/home-services/carts" element={<Carts />} />
+        <Route
+          path="/components/social/sections/userProfile"
+          element={<Userprofiles />}
+        />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
         <Route path="*" element={<h1>Page not found</h1>} />

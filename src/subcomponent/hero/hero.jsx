@@ -6,7 +6,7 @@ const HeroSubComp = () => {
       <div class="absolute inset-y-0 hidden w-full min-w-[1360px] "></div>
       <div class="mx-auto max-w-container px-4 pt-4 sm:px-6 lg:flex lg:px-8">
         <div class="relative z-20 mx-auto max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
-          <h1 class="text-base font-semibold leading-7 text-purple-600">
+          <h1 class="text-base font-semibold leading-7 text-indigo-600">
             By Abhishek Singh Chauhan
           </h1>
           <p class="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">
@@ -68,7 +68,7 @@ const HeroSubComp = () => {
               <span class="ml-2.5">Vue</span>
             </div>
           </div>
-          <p class="mt-4 text-base leading-7 text-purple-700">
+          <p class="mt-4 text-base leading-7 text-indigo-700">
             Over 500+ professionally designed, fully responsive, expertly
             crafted component examples you can drop into your Tailwind projects
             and customize to your heart’s content.
@@ -194,7 +194,7 @@ const HeroSubComp = () => {
                       </svg>
                       Add hashtag...
                     </div>
-                    <div class="flex items-center rounded-md p-1.5 bg-purple-600 text-white">
+                    <div class="flex items-center rounded-md p-1.5 bg-indigo-600 text-white">
                       <svg
                         class="mr-2.5 h-5 w-5 flex-none stroke-white"
                         fill="none"
@@ -248,7 +248,7 @@ const HeroSubComp = () => {
                 </div>
               </div>
               <div class="relative p-4">
-                <div class="pointer-events-auto rounded-md bg-purple-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                <div class="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
                   Button A
                 </div>
               </div>
@@ -275,7 +275,7 @@ const HeroSubComp = () => {
                   </div>
                 </div>
                 <div class="flex gap-3 p-4">
-                  <div class="pointer-events-auto rounded-md bg-purple-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                  <div class="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
                     Accept
                   </div>
                   <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
@@ -412,7 +412,7 @@ const HeroSubComp = () => {
                 >
                   <path
                     d="M.75 8A7.25 7.25 0 018 .75h24A7.25 7.25 0 0139.25 8v24A7.25 7.25 0 0132 39.25H8A7.25 7.25 0 01.75 32V8z"
-                    class="fill-indigo-50 stroke-purple-500"
+                    class="fill-indigo-50 stroke-indigo-500"
                   ></path>
                   <path
                     d="M7.75 21.25v-1.5a4 4 0 014-4h7.5m5 5v7.5a4 4 0 01-4 4h-1.5M27.75 32.25h.5a4 4 0 004-4v-10.5m-10-10h-10.5a4 4 0 00-4 4v.5"

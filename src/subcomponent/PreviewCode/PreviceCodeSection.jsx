@@ -101,6 +101,9 @@ const PreviewCodeSection = ({
     case "carts":
       heading = "Carts";
       break;
+    case "userProfile":
+      heading = "profile";
+      break;
       heading = "Sections";
   }
 

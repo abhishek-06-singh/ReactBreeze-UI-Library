@@ -268,47 +268,90 @@ const Section = () => {
         </div>
       </section>
       <hr />
-      <section
-        id="product-marketing-sections"
-        class="grid scroll-mt-12 grid-cols-1 gap-x-8 gap-y-10 py-10 lg:py-12 xl:grid-cols-4"
-      >
-        <h3 class="text-base font-semibold text-slate-900">
-          Listed components
-        </h3>
-        <ul class="col-span-3 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-10 md:grid-cols-3 xl:gap-x-8">
-          <li>
-            <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
-              <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
-                <img src={logo} alt="" class="absolute inset-0 h-full w-full" />
-              </div>
-              <h4 class="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
-                <a href="/components/home-services/add-address">
-                  <span class="absolute -inset-2.5 z-10"></span>
-                  <span class="relative">Add Address</span>
-                </a>
-              </h4>
-              <p class="relative mt-1.5 text-xs font-medium text-slate-500">
-                components
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
-              <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
-                <img src={logo} alt="" class="absolute inset-0 h-full w-full" />
-              </div>
-              <h4 class="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
-                <a href="/components/home-services/carts">
-                  <span class="absolute -inset-2.5 z-10"></span>
-                  <span class="relative">Carts</span>
-                </a>
-              </h4>
-              <p class="relative mt-1.5 text-xs font-medium text-slate-500">
-                components
-              </p>
-            </div>
-          </li>{" "}
-        </ul>
+      <section id="Elements">
+        <h2 class="text-xl font-bold text-slate-900">Some Extra Breeze! 🚀</h2>
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Explore the "Some Extra Breeze!" section and embark on a journey
+          through a galaxy of dazzling React components. From stunning Profile
+          Cards that bring personalities to life 🌟😎, to sleek Carts that
+          redefine online shopping 🛒💳, we've curated a collection that adds an
+          extra layer of excitement to your UI. Elevate your projects with these
+          dynamic components and watch your web development experience transform
+          into a joyful adventure! 🚀🌈🎨 Let the coding celebration begin!
+          🎉🔥💻
+        </p>
+        <div class="mt-10 divide-y divide-slate-100 border-t border-slate-100 lg:mt-12">
+          <section
+            id="product-marketing-sections"
+            class="grid scroll-mt-12 grid-cols-1 gap-x-8 gap-y-10 py-10 lg:py-12 xl:grid-cols-4"
+          >
+            <h3 class="text-base font-semibold text-slate-900">
+              Listed components
+            </h3>
+            <ul class="col-span-3 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-10 md:grid-cols-3 xl:gap-x-8">
+              <li>
+                <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      class="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 class="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                    <a href="/components/home-services/add-address">
+                      <span class="absolute -inset-2.5 z-10"></span>
+                      <span class="relative">Add Address</span>
+                    </a>
+                  </h4>
+                  <p class="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      class="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 class="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                    <a href="/components/home-services/carts">
+                      <span class="absolute -inset-2.5 z-10"></span>
+                      <span class="relative">Carts</span>
+                    </a>
+                  </h4>
+                  <p class="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      class="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 class="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                    <a href="/components/social/sections/userProfile">
+                      <span class="absolute -inset-2.5 z-10"></span>
+                      <span class="relative">Profiles</span>
+                    </a>
+                  </h4>
+                  <p class="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
       </section>
     </div>
   );
