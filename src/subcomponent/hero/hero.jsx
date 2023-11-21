@@ -6,7 +6,7 @@ const HeroSubComp = () => {
       <div class="absolute inset-y-0 hidden w-full min-w-[1360px] "></div>
       <div class="mx-auto max-w-container px-4 pt-4 sm:px-6 lg:flex lg:px-8">
         <div class="relative z-20 mx-auto max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
-          <h1 class="text-base font-semibold leading-7 text-indigo-600">
+          <h1 class="text-base font-semibold leading-7 text-pink-400">
             By Abhishek Singh Chauhan
           </h1>
           <p class="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-black sm:text-5xl sm:leading-[3.5rem]">
@@ -68,10 +68,16 @@ const HeroSubComp = () => {
               <span class="ml-2.5">Vue</span>
             </div>
           </div>
-          <p class="mt-4 text-base leading-7 text-indigo-700">
-            Over 500+ professionally designed, fully responsive, expertly
-            crafted component examples you can drop into your Tailwind projects
-            and customize to your heart’s content.
+          <p class="mt-4 text-base leading-7 text-gray-700">
+            🚀✨ Elevate your Tailwind CSS projects with a treasure trove of
+            professionally designed, fully responsive components! 🌈 Expertly
+            crafted and ready to drop into your projects, these components are a
+            dream come true for developers. 💻 Customize them to your heart's
+            content and watch your designs come to life! Explore the endless
+            possibilities, and let your creativity shine like a star in the
+            digital universe! 🌟🎨✨ Unleash the power of Tailwind CSS with our
+            collection of components and take your web development journey to
+            new heights! 🚀💡🔥
           </p>
           <div class="mt-8 flex gap-4">
             <a
@@ -194,7 +200,7 @@ const HeroSubComp = () => {
                       </svg>
                       Add hashtag...
                     </div>
-                    <div class="flex items-center rounded-md p-1.5 bg-indigo-600 text-white">
+                    <div class="flex items-center rounded-md p-1.5 bg-pink-400 text-white">
                       <svg
                         class="mr-2.5 h-5 w-5 flex-none stroke-white"
                         fill="none"
@@ -248,7 +254,7 @@ const HeroSubComp = () => {
                 </div>
               </div>
               <div class="relative p-4">
-                <div class="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                <div class="pointer-events-auto rounded-md bg-pink-400 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-pink-500">
                   Button A
                 </div>
               </div>
@@ -275,7 +281,7 @@ const HeroSubComp = () => {
                   </div>
                 </div>
                 <div class="flex gap-3 p-4">
-                  <div class="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+                  <div class="pointer-events-auto rounded-md bg-pink-400 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-pink-500">
                     Accept
                   </div>
                   <div class="pointer-events-auto rounded-md px-4 py-2 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
@@ -334,7 +340,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-pink-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -343,15 +349,15 @@ const HeroSubComp = () => {
                 >
                   <path
                     d="M.75 8A7.25 7.25 0 018 .75h24A7.25 7.25 0 0139.25 8v24A7.25 7.25 0 0132 39.25H8A7.25 7.25 0 01.75 32V8z"
-                    class="fill-indigo-50 stroke-indigo-500"
+                    class="fill-pink-50 stroke-pink-500"
                   ></path>
                   <path
                     d="M27 25.335L30.25 27l-6.603 3.382a8 8 0 01-7.294 0L9.75 27 13 25.335m14-6.999L30.25 20l-6.603 3.382a8 8 0 01-7.294 0L9.75 20 13 18.336"
-                    class="stroke-indigo-500/50"
+                    class="stroke-pink-500/50"
                   ></path>
                   <path
                     d="M9.75 13l9.338-4.783a2 2 0 011.824 0L30.25 13l-6.603 3.382a8 8 0 01-7.294 0L9.75 13z"
-                    class="stroke-indigo-500"
+                    class="stroke-pink-500"
                   ></path>
                 </svg>
               </div>
@@ -368,7 +374,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-pink-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -377,15 +383,15 @@ const HeroSubComp = () => {
                 >
                   <path
                     d="M.75 8A7.25 7.25 0 018 .75h24A7.25 7.25 0 0139.25 8v24A7.25 7.25 0 0132 39.25H8A7.25 7.25 0 01.75 32V8z"
-                    class="fill-indigo-50 stroke-indigo-500"
+                    class="fill-pink-50 stroke-pink-500"
                   ></path>
                   <path
                     d="M22.25 11.75l-4.5 16.5"
-                    class="stroke-indigo-500/50"
+                    class="stroke-pink-500/50"
                   ></path>
                   <path
                     d="M16.25 7.75h-.5a4 4 0 00-4 4v4.007a3 3 0 01-.88 2.122 3 3 0 000 4.242 3 3 0 01.88 2.122v4.007a4 4 0 004 4h.5m7.5-24.5h.5a4 4 0 014 4v4.007a3.002 3.002 0 00.878 2.122 3 3 0 010 4.242 3 3 0 00-.878 2.122v4.007a4 4 0 01-4 4h-.5"
-                    class="stroke-indigo-500"
+                    class="stroke-pink-500"
                   ></path>
                 </svg>
               </div>
@@ -403,7 +409,7 @@ const HeroSubComp = () => {
             <div class="flex">
               <div class="p-0.5">
                 <svg
-                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-indigo-500/[.12]"
+                  class="h-10 w-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-pink-500/[.12]"
                   viewBox="0 0 40 40"
                   fill="none"
                   stroke-width="1.5"
@@ -412,16 +418,16 @@ const HeroSubComp = () => {
                 >
                   <path
                     d="M.75 8A7.25 7.25 0 018 .75h24A7.25 7.25 0 0139.25 8v24A7.25 7.25 0 0132 39.25H8A7.25 7.25 0 01.75 32V8z"
-                    class="fill-indigo-50 stroke-indigo-500"
+                    class="fill-pink-50 stroke-pink-500"
                   ></path>
                   <path
                     d="M7.75 21.25v-1.5a4 4 0 014-4h7.5m5 5v7.5a4 4 0 01-4 4h-1.5M27.75 32.25h.5a4 4 0 004-4v-10.5m-10-10h-10.5a4 4 0 00-4 4v.5"
-                    class="stroke-indigo-500/50"
+                    class="stroke-pink-500/50"
                   ></path>
-                  <path d="M31.5 8.5l-23 23" class="stroke-indigo-500"></path>
+                  <path d="M31.5 8.5l-23 23" class="stroke-pink-500"></path>
                   <path
                     d="M25.75 7.75h4.5a2 2 0 012 2v4.5m-18 18h-4.5a2 2 0 01-2-2v-4.5"
-                    class="stroke-indigo-500"
+                    class="stroke-pink-500"
                   ></path>
                 </svg>
               </div>
