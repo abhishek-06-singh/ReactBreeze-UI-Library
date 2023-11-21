@@ -29,7 +29,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/signin">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Login Components</span>
@@ -49,7 +49,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/signup">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Sign up Components</span>
@@ -69,7 +69,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/comment">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Comment Components</span>
@@ -89,7 +89,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/posts">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Create Post</span>
@@ -109,7 +109,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/image-Gallery">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Image Gallery Components</span>
@@ -129,7 +129,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/users">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Users Indicators</span>
@@ -149,7 +149,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/forms">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Forms Components</span>
@@ -169,7 +169,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/toast">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Social Media Toasts</span>
@@ -211,7 +211,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/fly-button">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Fly Components</span>
@@ -232,7 +232,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/Questionaire">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Questionaire</span>
@@ -252,7 +252,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/cards">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Cards</span>
@@ -300,7 +300,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/home-services/add-address">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Add Address</span>
@@ -320,7 +320,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/home-services/carts">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Carts</span>
@@ -340,7 +340,7 @@ const Section = () => {
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
                     <a href="/components/social/sections/userProfile">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Profiles</span>
