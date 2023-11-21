@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../src/componentsLogo.png";
+import logo from "../../../src/components/social/assets/skeliton.png";
 const Section = () => {
   return (
     <div className="relative mx-auto w-full max-w-container space-y-20 px-4  pt-20 sm:px-6 lg:px-8 pb-20 bg-white shadow-lg shadow-slate-300">

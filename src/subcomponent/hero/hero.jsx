@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSubComp = () => {
   return (
-    <div class="relative -mt-[5.75rem] overflow-hidden bg-slate-50 pt-12 md:pt-[5.75rem]">
+    <div class="relative -mt-[5.75rem] overflow-hidden bg-gray-100 pt-12 md:pt-[5.75rem]">
       <div class="absolute inset-y-0 hidden w-full min-w-[1360px] "></div>
       <div class="mx-auto max-w-container px-4 pt-4 sm:px-6 lg:flex lg:px-8">
         <div class="relative z-20 mx-auto max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
