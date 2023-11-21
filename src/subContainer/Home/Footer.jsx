@@ -116,9 +116,12 @@ const Footer = ({ contactDetail }) => {
             <img src={logoWhite} alt="Logo" className="w-40" />
           </div>
           <ul className="flex items-center gap-8 ml-auto">
-            <li className="cursor-pointer hover:text-gray-300">
-              <span>About Us</span>
-            </li>
+            <a href="./aboutAbhishek">
+              <li className="cursor-pointer hover:text-gray-300">
+                <span>About me</span>
+              </li>
+            </a>
+
             <li
               className="cursor-pointer hover:text-gray-300"
               title="Coming Soon"

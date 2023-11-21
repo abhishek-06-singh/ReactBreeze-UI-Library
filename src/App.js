@@ -20,6 +20,7 @@ import Card from "./subContainer/card/Card";
 import Address from "./subContainer/address/Address";
 import Carts from "./subContainer/carts/Carts";
 import Userprofiles from "./subContainer/userprofiles/Userprofiles";
+import AboutMe from "./subContainer/Home/AboutMe";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -32,7 +33,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/aboutAbhishek" element={<AboutMe />} />
         <Route path="/" element={<Home />} />
+
         <Route
           path="/components/social/sections/signin"
           element={<Signins />}
