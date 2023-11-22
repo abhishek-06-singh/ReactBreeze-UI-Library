@@ -104,6 +104,9 @@ const PreviewCodeSection = ({
     case "userProfile":
       heading = "profile";
       break;
+    case "application":
+      heading = "Calenders";
+      break;
       heading = "Sections";
   }
 

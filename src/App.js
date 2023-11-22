@@ -21,6 +21,7 @@ import Address from "./subContainer/address/Address";
 import Carts from "./subContainer/carts/Carts";
 import Userprofiles from "./subContainer/userprofiles/Userprofiles";
 import AboutMe from "./subContainer/Home/AboutMe";
+import Calender from "./subContainer/calender/Calender";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -77,6 +78,10 @@ function App() {
         <Route
           path="/components/social/sections/userProfile"
           element={<Userprofiles />}
+        />
+        <Route
+          path="/components/home-services/application"
+          element={<Calender />}
         />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
