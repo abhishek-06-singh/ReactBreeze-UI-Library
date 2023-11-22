@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333; /* Set a background color for the hero section */
+  /* Set a background color for the hero section */
   transition: top 0.9s ease-in-out;
 }
 
