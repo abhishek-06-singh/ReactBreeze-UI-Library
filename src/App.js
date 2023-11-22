@@ -22,6 +22,7 @@ import Carts from "./subContainer/carts/Carts";
 import Userprofiles from "./subContainer/userprofiles/Userprofiles";
 import AboutMe from "./subContainer/Home/AboutMe";
 import Calender from "./subContainer/calender/Calender";
+import Footer from "./subContainer/Home/Footer";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -33,6 +34,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+
       <Routes>
         <Route path="/aboutAbhishek" element={<AboutMe />} />
         <Route path="/" element={<Home />} />
@@ -87,6 +89,7 @@ function App() {
         <Route path="/contact" element={<Contact />} /> */}
         <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
+      <Footer className="bg-gray-800 text-white text-center py-4" />
     </BrowserRouter>
   );
 }

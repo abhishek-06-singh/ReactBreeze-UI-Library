@@ -35,7 +35,7 @@ const Footer = ({ contactDetail }) => {
   return (
     <footer
       id="contactUs"
-      className="bg-gray-800 text-white py-12 rounded-t-lg"
+      className="bg-gray-800 text-white py-12 rounded-t-lg z-50"
     >
       <div className="container mx-auto flex flex-col items-center">
         <div className="w-full md:w-2/3 mb-8 ml-20">

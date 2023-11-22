@@ -6,7 +6,7 @@ const Navbar = () => {
       <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900">
         <nav
           aria-label="Global"
-          className="mx-auto max-w-container px-4 sm:px-6 lg:px-8 pt-5"
+          className="mx-auto max-w-container px-4 sm:px-6 lg:px-8 pt-5 mb-10"
         >
           <div className="relative flex items-center ">
             <a className="flex-none text-slate-900" href="/">
