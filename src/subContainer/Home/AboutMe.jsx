@@ -47,7 +47,12 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="flex flex-col p-5 md:p-16 lg:p-20 justify-center h-full bg-gray-950">
+    <div
+      className="flex flex-col p-5 md:p-16 lg:p-20 justify-center h-full"
+      style={{
+        backgroundImage: 'url("https://tailwindui.com/img/beams-home@95.jpg")',
+      }}
+    >
       <div className="bg-gray-800 shadow rounded overflow-auto scrollbar-hide mb-10">
         <div className="relative">
           <div className="cursor-pointer" onClick={toggleDropdown}>

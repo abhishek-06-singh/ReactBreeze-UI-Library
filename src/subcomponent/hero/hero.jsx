@@ -3,7 +3,7 @@ import React from "react";
 const HeroSubComp = () => {
   return (
     <div
-      className="relative overflow-hidden bg-cover bg-center pt-12 md:pt-[5.75rem] z-20 mt-28"
+      className="relative overflow-hidden  bg-center pt-12 md:pt-[5.75rem] z-50 mt-28"
       style={{
         backgroundImage: 'url("https://tailwindui.com/img/beams-home@95.jpg")',
       }}
