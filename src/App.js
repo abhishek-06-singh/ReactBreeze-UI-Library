@@ -22,6 +22,8 @@ import Carts from "./subContainer/carts/Carts";
 import Userprofiles from "./subContainer/userprofiles/Userprofiles";
 import AboutMe from "./subContainer/Home/AboutMe";
 import Calender from "./subContainer/calender/Calender";
+import Feeds from "./subContainer/feeds/Feeds";
+import Notification from "./subContainer/notification/Notification";
 import Footer from "./subContainer/Home/Footer";
 import Footers from "./subContainer/footers/Footers";
 
@@ -85,6 +87,11 @@ function App() {
         <Route
           path="/components/home-services/application"
           element={<Calender />}
+        />
+        <Route path="/components/social/sections/feed" element={<Feeds />} />
+        <Route
+          path="/components/application-ui/overlays/notifications"
+          element={<Notification />}
         />
         {/* <Route path="/components/home-services/footer" element={<Footers />} /> */}
         {/* <Route path="/about" element={<About />} />

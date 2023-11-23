@@ -107,6 +107,9 @@ const PreviewCodeSection = ({
     case "application":
       heading = "Calenders";
       break;
+    case "feed":
+      heading = "Feeds";
+      break;
       heading = "Sections";
   }
 

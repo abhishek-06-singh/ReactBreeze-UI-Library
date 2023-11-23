@@ -180,6 +180,46 @@ const Section = () => {
                   </p>
                 </div>
               </li>
+              <li>
+                <div className="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div className="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      className="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                    <a href="/components/social/sections/feed">
+                      <span className="absolute -inset-2.5 z-10"></span>
+                      <span className="relative">Feeds</span>
+                    </a>
+                  </h4>
+                  <p className="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div className="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      className="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-indigo-600">
+                    <a href="/components/application-ui/overlays/notifications">
+                      <span className="absolute -inset-2.5 z-10"></span>
+                      <span className="relative">Notifications</span>
+                    </a>
+                  </h4>
+                  <p className="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
             </ul>
           </section>
         </div>
