@@ -26,6 +26,7 @@ import Feeds from "./subContainer/feeds/Feeds";
 import Notification from "./subContainer/notification/Notification";
 import Footer from "./subContainer/Home/Footer";
 import Footers from "./subContainer/footers/Footers";
+import PageNotFound from "./components/notfound/PageNotFound";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -36,8 +37,6 @@ function classNames(...classes) {
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-
       <Routes>
         <Route path="/aboutAbhishek" element={<AboutMe />} />
         <Route path="/" element={<Home />} />
@@ -93,12 +92,9 @@ function App() {
           path="/components/application-ui/overlays/notifications"
           element={<Notification />}
         />
-        {/* <Route path="/components/home-services/footer" element={<Footers />} /> */}
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
-        <Route path="*" element={<h1>Page not found</h1>} />
+
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
-      {/* <Footer className="bg-gray-800 text-white text-center py-4" /> */}
     </BrowserRouter>
   );
 }

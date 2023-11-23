@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HeroSubComp from "../../subcomponent/hero/hero";
 import Section from "../../subcomponent/componetsSection/section";
+import Navbar from "../../subcomponent/Navbar/navbar";
 import Footer from "./Footer";
 import "./Home.css";
 
@@ -21,6 +22,7 @@ const Home = () => {
 
   return (
     <div>
+      <Navbar />
       <HeroSubComp />
       <Section />
       <Footer />
