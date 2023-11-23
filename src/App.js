@@ -23,6 +23,7 @@ import Userprofiles from "./subContainer/userprofiles/Userprofiles";
 import AboutMe from "./subContainer/Home/AboutMe";
 import Calender from "./subContainer/calender/Calender";
 import Footer from "./subContainer/Home/Footer";
+import Footers from "./subContainer/footers/Footers";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -85,11 +86,12 @@ function App() {
           path="/components/home-services/application"
           element={<Calender />}
         />
+        {/* <Route path="/components/home-services/footer" element={<Footers />} /> */}
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} /> */}
         <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
-      <Footer className="bg-gray-800 text-white text-center py-4" />
+      {/* <Footer className="bg-gray-800 text-white text-center py-4" /> */}
     </BrowserRouter>
   );
 }

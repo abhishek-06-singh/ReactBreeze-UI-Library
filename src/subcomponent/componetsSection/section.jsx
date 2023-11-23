@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../../src/components/social/assets/skeliton.png";
 const Section = () => {
   return (
-    <div className="relative mx-auto w-full max-w-container space-y-20 px-4  pt-20 sm:px-6 lg:px-8 pb-20 bg-white shadow-lg shadow-slate-300">
+    <div className="relative mx-auto w-full max-w-container space-y-20 px-4  pt-20 sm:px-6 lg:px-8 pb-20 bg-white">
       <section id="product-marketing" className="scroll-mt-28">
         <h2 className="text-xl font-bold text-slate-900">Social Breeze! 🚀</h2>
         <p className="mt-3 text-sm leading-7 text-slate-500">
@@ -364,6 +364,26 @@ const Section = () => {
                     <a href="/components/home-services/application">
                       <span className="absolute -inset-2.5 z-10"></span>
                       <span className="relative">Calenders</span>
+                    </a>
+                  </h4>
+                  <p className="relative mt-1.5 text-xs font-medium text-slate-500">
+                    components
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+                  <div className="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+                    <img
+                      src={logo}
+                      alt=""
+                      className="absolute inset-0 h-full w-full"
+                    />
+                  </div>
+                  <h4 className="mt-4 text-sm font-medium text-slate-900 group-hover:text-pink-400">
+                    <a href="/components/home-services/footer">
+                      <span className="absolute -inset-2.5 z-10"></span>
+                      <span className="relative">Footers</span>
                     </a>
                   </h4>
                   <p className="relative mt-1.5 text-xs font-medium text-slate-500">

@@ -1,6 +1,5 @@
-.parallax-container {
-  overflow: hidden;
-  margin-top: 110px;
+body {
+  background-color: white;
 }
 
 .hero-section {
@@ -11,11 +10,12 @@
   align-items: center;
   justify-content: center;
   /* Set a background color for the hero section */
+
   transition: top 0.9s ease-in-out;
 }
 
 .content-section {
   background-color: #f4f4f4;
-  z-index: 50;
+
   margin-top: 100vh;
 }

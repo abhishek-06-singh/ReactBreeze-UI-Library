@@ -20,17 +20,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="parallax-container">
-      <div
-        className="hero-section"
-        style={{ top: `${scrollPosition * 0.3}px` }}
-      >
-        <HeroSubComp />
-      </div>
-      <div className="content-section">
-        <Section />
-      </div>
-      {/* <Footer  /> */}
+    <div>
+      <HeroSubComp />
+      <Section />
+      <Footer />
     </div>
   );
 };

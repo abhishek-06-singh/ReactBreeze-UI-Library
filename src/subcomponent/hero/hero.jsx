@@ -3,13 +3,13 @@ import React from "react";
 const HeroSubComp = () => {
   return (
     <div
-      className="relative overflow-hidden  bg-center pt-12 md:pt-[5.75rem] z-50 mt-28"
+      className="relative overflow-hidden bg-cover bg-center  z-20 pl-5 "
       style={{
         backgroundImage: 'url("https://tailwindui.com/img/beams-home@95.jpg")',
       }}
     >
       <div class="absolute inset-y-0 hidden w-full min-w-[1360px] "></div>
-      <div class="mx-auto max-w-container px-4 pt-4 sm:px-6 lg:flex lg:px-8">
+      <div class="mx-auto max-w-container px-4  sm:px-6 lg:flex lg:px-8 mt-0 ">
         <div class="relative z-20 mx-auto max-w-[40rem] pb-16 pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
           <h1 class="text-base font-semibold leading-7 text-pink-400">
             By Abhishek Singh Chauhan
@@ -109,7 +109,7 @@ const HeroSubComp = () => {
             </a>
           </div>
         </div>
-        <div class="relative z-10 mt-12 hidden select-none lg:flex">
+        <div class="relative z-10 mt-12 hidden select-none lg:flex pr-16">
           <div class="z-20 flex flex-col">
             <div class="relative p-4">
               <div class="absolute bottom-0 left-11 right-0 top-8 bg-slate-900/[0.03]"></div>
