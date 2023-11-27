@@ -5,7 +5,8 @@
 
 
 # ReactBreeze UI Library 🌐
-![Screenshot Capture - 2023-11-25 - 00-25-00](https://github.com/abhishek-06-singh/ReactBreeze-UI-Library/assets/115978151/f91df431-c46b-4368-bb84-23c73205e42a)
+![Screenshot Capture - 2023-11-27 - 12-34-04](https://github.com/abhishek-06-singh/ReactBreeze-UI-Library/assets/115978151/48ff42dd-6adb-4c3a-a74e-ad41cb0b1586)
+
 
 Welcome to ReactBreeze, where the worlds of React and Tailwind CSS unite, creating a seamless synergy for your UI development needs.
 
