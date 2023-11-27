@@ -27,6 +27,7 @@ import Notification from "./subContainer/notification/Notification";
 import Footer from "./subContainer/Home/Footer";
 import Footers from "./subContainer/footers/Footers";
 import PageNotFound from "./components/notfound/PageNotFound";
+import FootersAll from "./subContainer/footersMore/FootersAll";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -92,7 +93,10 @@ function App() {
           path="/components/application-ui/overlays/notifications"
           element={<Notification />}
         />
-
+        <Route
+          path="/components/home-services/footer/footer"
+          element={<FootersAll />}
+        />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

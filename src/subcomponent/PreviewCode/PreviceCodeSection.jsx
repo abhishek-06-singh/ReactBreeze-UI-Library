@@ -110,6 +110,9 @@ const PreviewCodeSection = ({
     case "feed":
       heading = "Feeds";
       break;
+    case "footer":
+      heading = "Footers";
+      break;
       heading = "Sections";
   }
 
