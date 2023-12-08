@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../components/social/assets/navlogo.png";
+import logo from "../../components/social/assets/breeze.png";
 const Navbar = () => {
   return (
     <>
