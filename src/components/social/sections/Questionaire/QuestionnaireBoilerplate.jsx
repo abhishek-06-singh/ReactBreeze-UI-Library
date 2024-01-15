@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./questionnaire.css";
-import logo from "../../assets/appLogo.png";
+import logo from "../../../../applogo.png";
 import QuestionBoilerblate from "./question._boilerplate";
 
 import { useNavigate } from "react-router-dom";

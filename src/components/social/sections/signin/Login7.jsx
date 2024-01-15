@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import googleIcon from "../../assets/google.png";
-import logo from "../../assets/appLogo.png";
+import logo from "../../../../applogo.png";
 const Login7 = () => {
   const [formData, setFormData] = useState({
     email: "",

@@ -85,6 +85,9 @@ const PreviewCodeSection = ({
     case "toast":
       heading = "Toasts";
       break;
+    case "notifications":
+      heading = "Notifications";
+      break;
     case "fly-button":
       heading = "Fly Buttons";
       break;
@@ -112,6 +115,8 @@ const PreviewCodeSection = ({
       break;
     case "footer":
       heading = "Footers";
+    case "musicplay":
+      heading = "Music";
       break;
       heading = "Sections";
   }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../../../applogo.png";
 const Footer6 = () => {
   const navigation = {
     solutions: [
@@ -101,11 +101,7 @@ const Footer6 = () => {
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8">
-              <img
-                className="h-10"
-                src="https://oyelabs.com/wp-content/uploads/2023/01/Group-80-1.svg"
-                alt="Company name"
-              />
+              <img className="h-20" src={logo} alt="Company name" />
               <p className="text-sm leading-6 text-gray-600">
                 Making the world a better place through constructing elegant
                 hierarchies.

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as icons from "./icons";
-import logoWhite from "../../components/social/assets/breeze.png";
+import logoWhite from "../../applogo.png";
 import smileGif from "../../components/social/assets/smile.gif";
 
 import {

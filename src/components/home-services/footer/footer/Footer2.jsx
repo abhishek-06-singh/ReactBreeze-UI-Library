@@ -9,6 +9,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import * as icons from "./icons";
+import logo from "../../../../applogo.png";
 
 const Footer2 = ({ contactDetail }) => {
   const [name, changeName] = useState("");
@@ -134,11 +135,7 @@ const Footer2 = ({ contactDetail }) => {
           </div>
           <div className="bg-indigo-300 p-4 w-full rounded flex items-center justify-between pl-10 pr-10">
             <div>
-              <img
-                src="https://oyelabs.com/wp-content/uploads/2023/01/Group-80-1.svg"
-                alt="Logo"
-                className="w-40"
-              />
+              <img src={logo} alt="Logo" className="w-20" />
             </div>
             <ul className="flex items-center gap-8 ml-auto">
               <li className="cursor-pointer hover:text-gray-600">

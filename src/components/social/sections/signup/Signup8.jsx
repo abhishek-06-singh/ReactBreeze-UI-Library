@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import countryCodes from "./countryCodes.json";
 import Flag from "react-country-flag";
 import googleIcon from "../../assets/google.png";
-import logo from "../../assets/appLogowhite.png";
+import logo from "../../../../applogo.png";
 const minLength = 6;
 
 const Signup8 = () => {

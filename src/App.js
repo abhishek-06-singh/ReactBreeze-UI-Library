@@ -29,6 +29,7 @@ import Footers from "./subContainer/footers/Footers";
 import PageNotFound from "./components/notfound/PageNotFound";
 import FootersAll from "./subContainer/footersMore/FootersAll";
 import PageNotFound2 from "./components/notfound/PageNotFound2";
+import MusicPlayer from "./subContainer/music/MusicPlayer";
 
 // import { XMarkIcon } from '@heroicons/react/outline'
 // import { ChevronDownIcon, PlusIcon } from '@heroicons/react/solid'
@@ -98,6 +99,7 @@ function App() {
           path="/components/home-services/footer/footer"
           element={<FootersAll />}
         />
+        <Route path="/components/musicplay" element={<MusicPlayer />} />
         <Route path="*" element={<PageNotFound2 />} />
       </Routes>
     </BrowserRouter>

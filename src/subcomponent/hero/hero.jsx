@@ -1,4 +1,6 @@
 import React from "react";
+import { FaReact } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
 
 const HeroSubComp = () => {
   return (
@@ -18,59 +20,15 @@ const HeroSubComp = () => {
             Beautiful UI components, crafted with Tailwind CSS and React.
           </p>
           <div class="flex flex-wrap mt-4">
-            <div class="flex items-center text-sm font-medium text-slate-500">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-slate-400"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M5 4.15h22.5l-2 20.5-9.25 4-9.25-4-2-20.5Z"></path>
-                <path d="M20.5 9.15H12v5.5h8.5v6l-4.25 2-4.25-2v-2.5"></path>
-              </svg>
-              <span class="ml-2.5">HTML</span>
-            </div>
             <div class="flex items-center text-sm font-medium text-slate-500 ml-6">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-slate-400"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <ellipse cx="16" cy="16" rx="13" ry="5"></ellipse>
-                <ellipse
-                  cx="16"
-                  cy="16"
-                  rx="13"
-                  ry="5"
-                  transform="rotate(60 16 16)"
-                ></ellipse>
-                <ellipse
-                  rx="13"
-                  ry="5"
-                  transform="matrix(-.5 .86603 .86603 .5 16 16)"
-                ></ellipse>
-                <circle cx="16" cy="16" r="2"></circle>
-              </svg>
-              <span class="ml-2.5">React</span>
+              <FaReact className="text-4xl text-blue-400" />
+              <span class="ml-2.5 text-blue-500">React</span>
             </div>
+          </div>
+          <div class="flex flex-wrap mt-4">
             <div class="flex items-center text-sm font-medium text-slate-500 ml-6">
-              <svg
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 flex-none stroke-current text-slate-400"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M19.924 5 16 11.644 12.075 5H3l13 23L29 5h-9.076Z"></path>
-                <path d="M19.879 5 16 11.26 12.121 5H8l8 13 8-13h-4.121Z"></path>
-              </svg>
-              <span class="ml-2.5">Vue</span>
+              <SiTailwindcss className="text-4xl text-indigo-400" />
+              <span class="ml-2.5 text-indigo-500">Tailwind</span>
             </div>
           </div>
           <p class="mt-4 text-base leading-7 text-gray-700">
@@ -368,7 +326,7 @@ const HeroSubComp = () => {
               </div>
               <div class="ml-6">
                 <h2 class="text-sm font-semibold leading-6 text-slate-900">
-                  500+ Components
+                  Lots of components
                 </h2>
                 <p class="mt-2 text-sm leading-6 text-slate-700">
                   Beautifully designed, expertly crafted components that follow
@@ -402,7 +360,7 @@ const HeroSubComp = () => {
               </div>
               <div class="ml-6">
                 <h2 class="text-sm font-semibold leading-6 text-slate-900">
-                  React, Vue, and HTML
+                  React , Tailwind Css
                 </h2>
                 <p class="mt-2 text-sm leading-6 text-slate-700">
                   Interactive examples for React and Vue powered by Headless UI,
