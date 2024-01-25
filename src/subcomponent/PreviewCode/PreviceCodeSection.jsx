@@ -122,9 +122,9 @@ const PreviewCodeSection = ({
   }
 
   return (
-    <div className="relative  border  mx-auto mt-20 w-full max-w-container px-4 sm:px-6 lg:px-8">
+    <div className="relative   mx-auto  p-5 w-full max-w-container px-4 sm:px-6 lg:px-8 bg-gray-950">
       <div class="flex flex-col">
-        <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900">
+        <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-rose-600">
           {heading}
         </h1>
         <nav
@@ -139,7 +139,7 @@ const PreviewCodeSection = ({
                 </div>
               )}
               <a
-                className="text-slate-500 hover:text-slate-600"
+                className="text-slate-200 hover:text-slate-100"
                 href={`/${array.slice(1, index + 1).join("/")}`}
               >
                 {segment}
@@ -152,24 +152,20 @@ const PreviewCodeSection = ({
         <section id="component-b9bcab4538776a17fff93d18f82a8272">
           <div class="grid grid-cols-[1fr,auto] items-center">
             <div class="flex min-w-0">
-              <h2 class="truncate text-base font-medium leading-7 text-slate-900">
-                <a href="#component-b9bcab4538776a17fff93d18f82a8272">
-                  Simple centered
-                </a>
-              </h2>
-              <p class="ml-3 hidden whitespace-nowrap rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-700 lg:block">
-                Requires JS
+              <h2 class="truncate text-base font-medium leading-7 text-slate-900"></h2>
+              <p class="ml-3 hidden whitespace-nowrap rounded-lg bg-slate-600 px-2 py-0.5 text-xs font-semibold leading-6 text-slate-100 lg:block">
+                React JS
               </p>
             </div>
             <div class="ml-6  flex items-center">
               <div
-                class="flex space-x-1 rounded-lg bg-slate-100 p-0.5 border shadow-md"
+                class="flex space-x-1 rounded-lg bg-slate-700 p-0.5  shadow-md"
                 role="tablist"
                 aria-orientation="horizontal"
               >
                 <button
                   class={`flex items-center rounded-md py-[0.4375rem]  transition ease-in-out delay-300 pl-2 pr-2 text-sm font-semibold lg:pr-3 ${
-                    selectBtn === "preview" ? `bg-white` : ""
+                    selectBtn === "preview" ? `bg-rose-500 text-gray-100` : ""
                   }  shadow`}
                   id="headlessui-tabs-tab-21"
                   role="tab"
@@ -181,13 +177,13 @@ const PreviewCodeSection = ({
                   aria-controls="headlessui-tabs-panel-23"
                 >
                   <PreviewSvgIcon />
-                  <span class="sr-only lg:not-sr-only lg:ml-2 text-slate-900">
+                  <span class="sr-only lg:not-sr-only lg:ml-2 text-slate-100">
                     Preview
                   </span>
                 </button>
                 <button
                   class={`flex items-center rounded-md py-[0.4375rem] transition ease-in-out delay-300  pl-2 pr-2 text-sm font-semibold lg:pr-3 ${
-                    selectBtn === "code" ? `bg-white` : ""
+                    selectBtn === "code" ? `bg-gray-600` : ""
                   }  shadow`}
                   id="headlessui-tabs-tab-22"
                   role="tab"
@@ -199,21 +195,13 @@ const PreviewCodeSection = ({
                   aria-controls="headlessui-tabs-panel-24"
                 >
                   <CodeSvgIcon />
-                  <span class="sr-only lg:not-sr-only lg:ml-2 text-slate-600">
+                  <span class="sr-only lg:not-sr-only lg:ml-2 text-slate-100">
                     Code
                   </span>
                 </button>
               </div>
               <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 sm:block"></div>
-              <div class="relative hidden sm:block">
-                <select
-                  onChange={(val, option) => handleSelectLang(val, option)}
-                >
-                  <option value="react">React</option>
-                  <option value="html">HTML</option>
-                  <option value="vue">Vue</option>
-                </select>
-              </div>
+              <div class="relative hidden sm:block"></div>
               <span className="tooltip" onClick={() => copyToClipboard()}>
                 <SlabSvgIcon />
                 <span className="tooltiptext">Copy Code</span>

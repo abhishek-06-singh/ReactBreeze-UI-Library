@@ -74,7 +74,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="flex h-screen overflow-y-auto">
+    <div className="flex h-screen overflow-y-auto bg-white">
       {/* Left side - Products */}
       <div className="w-3/5 m-6 mb-10">
         <h2 className="text-4xl mb-8 ml-8 mt-8 font-bold">Products</h2>

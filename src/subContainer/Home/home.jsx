@@ -4,6 +4,7 @@ import Section from "../../subcomponent/componetsSection/section";
 import Navbar from "../../subcomponent/Navbar/navbar";
 import Footer from "./Footer";
 import "./Home.css";
+import HomeMain from "../../subcomponent/hero/HomeMain";
 
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,8 +23,9 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar />
-      <HeroSubComp />
+      {/* <Navbar /> */}
+      {/* <HeroSubComp /> */}
+      <HomeMain />
       <Section />
       <Footer />
     </div>

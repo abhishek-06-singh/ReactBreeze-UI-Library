@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as icons from "./icons";
-import logoWhite from "../../applogo.png";
+import logoWhite from "../../components/social/assets/logo.png";
 import smileGif from "../../components/social/assets/smile.gif";
 
 import {
@@ -54,24 +54,24 @@ const Footer = ({ contactDetail }) => {
   return (
     <footer
       id="contactUs"
-      className="bg-gradient-to-br from-fuchsia-100 via-slate-50 to-blue-200 text-gray-800 py-12 rounded-t-lg z-50 border-t-slate-400 border-t-1"
+      className="bg-gradient-to-r from-neutral-900 via-indigo-950  to-neutral-800 text-gray-800 py-12 rounded-t-lg z-50 border-t-slate-400 border-t-1"
     >
       <div className="container mx-auto flex flex-col items-center">
         <div className="w-full md:w-2/3 mb-8 ml-20">
-          <h3 className="mb-4 text-lg">Stay in the Loop</h3>
-          <p className="text-gray-700 mb-4">
+          <h3 className="mb-4 text-lg text-gray-100">Stay in the Loop</h3>
+          <p className="text-gray-200 mb-4">
             Be the first to hear about new classes and breaking news.
           </p>
           <div className="flex">
             <input
-              className="rounded-md py-2 px-3 mr-2 w-max md:w-2/3 bg-gray-200"
+              className="rounded-md py-2 px-3 mr-2 w-max md:w-2/3 bg-gray-600"
               placeholder="Your Name"
               type="text"
               value={name}
               onChange={(e) => changeName(e.target.value)}
             />
             <button
-              className="bg-indigo-500 text-white py-2 px-4 w-32 rounded-md"
+              className="bg-red-500 text-white py-2 px-4 w-32 rounded-md"
               onClick={openModal}
             >
               Sign Up
@@ -79,13 +79,13 @@ const Footer = ({ contactDetail }) => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-4 w-full mb-8">
+        <div className="flex justify-center gap-4 w-full mb-8 text-gray-100">
           <a
             href="https://www.facebook.com/abhishek999chauhan?mibextid=ZbWKwL"
             className="flex items-center mr-4 mb-4 hover:text-gray-300"
           >
             <span className="mr-2">
-              <FaFacebook className="text-indigo-400 text-2xl" />
+              <FaFacebook className="text-rose-400 text-2xl" />
             </span>
             <span>Facebook</span>
           </a>
@@ -95,7 +95,7 @@ const Footer = ({ contactDetail }) => {
             className="flex items-center mr-4 mb-4 hover:text-gray-300"
           >
             <span className="mr-2">
-              <FaInstagram className="text-indigo-400 text-2xl" />
+              <FaInstagram className="text-rose-400 text-2xl" />
             </span>
             <span>Instagram</span>
           </a>
@@ -105,7 +105,7 @@ const Footer = ({ contactDetail }) => {
             className="flex items-center mr-4 mb-4 hover:text-gray-300"
           >
             <span className="mr-2">
-              <FaLinkedin className="text-indigo-400 text-2xl" />
+              <FaLinkedin className="text-rose-400 text-2xl" />
             </span>
             <span>Linkedin</span>
           </a>
@@ -115,14 +115,14 @@ const Footer = ({ contactDetail }) => {
             className="flex items-center mr-4 mb-4 hover:text-gray-300"
           >
             <span className="mr-2 text-2xl">
-              <FaGithub className="text-indigo-400 text-2xl" />
+              <FaGithub className="text-rose-400 text-2xl" />
             </span>
             <span>Github</span>
           </a>
         </div>
 
         <div className="w-full mb-8">
-          <ul className="flex justify-center gap-4">
+          <ul className="flex justify-center gap-4 text-gray-200">
             <li
               className="flex items-center cursor-pointer"
               onClick={() =>
@@ -130,7 +130,7 @@ const Footer = ({ contactDetail }) => {
               }
             >
               <span className="mr-2">
-                <AiOutlineMail className="text-indigo-400 text-2xl" />
+                <AiOutlineMail className="text-rose-400 text-2xl" />
               </span>
               <p>Email</p>
             </li>
@@ -142,16 +142,16 @@ const Footer = ({ contactDetail }) => {
               }
             >
               <span className="mr-2">
-                <AiOutlineWhatsApp className="text-indigo-400 text-2xl" />
+                <AiOutlineWhatsApp className="text-rose-400 text-2xl" />
               </span>
               <p>Whatsapp</p>
             </li>
           </ul>
         </div>
 
-        <div className="w-5/6 bg-indigo-900 bg-opacity-20 text-gray-800 p-4 pl-16 pr-16 rounded flex items-center justify-between ml-20 mr-20">
+        <div className="w-5/6 bg-gray-900 bg-opacity-20 text-gray-200 p-4 pl-16 pr-16 rounded flex items-center justify-between ml-20 mr-20">
           <div>
-            <img src={logoWhite} alt="Logo" className="w-40" />
+            <img src={logoWhite} alt="Logo" className="h-10" />
           </div>
           <ul className="flex items-center gap-8 ml-auto">
             <a href="./aboutAbhishek">

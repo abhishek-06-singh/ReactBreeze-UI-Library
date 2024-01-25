@@ -74,7 +74,7 @@ const Cart3 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center h-screen overflow-y-auto relative">
+    <div className="flex flex-col items-center h-screen overflow-y-auto relative bg-white">
       {/* Gradient Layer */}
 
       {/* Products Section */}
