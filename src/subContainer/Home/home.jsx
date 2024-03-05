@@ -22,7 +22,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-neutral-900">
       {/* <Navbar /> */}
       {/* <HeroSubComp /> */}
       <HomeMain />
