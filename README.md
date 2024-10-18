@@ -23,6 +23,6 @@ ReactBreeze UI Library offers a curated collection of meticulously crafted React
 
 - **Live Previews:** Visualize components in real-time with live previews, ensuring you get the look and feel you desire.
 
-- **Intuitive Integration:** Seamlessly integrate components into your React projects using one-click code snippets.
+- **Intuitive Integration:** Seamlessly integrate components into your React projects using one-click code snippets..
 
 
